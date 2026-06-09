@@ -2,24 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>{{ content.meta_title or "HubSpot Theme Boilerplate" }}</title>
+    <title>{{ content.meta_title or "MentorInk | AI Mentoring Platform" }}</title>
     {{ require_js }}
     <link rel="stylesheet" href="{{ get_asset_url('style.css') }}" />
   </head>
   <body>
     {% include "partials/header.html" %}
 
-    <main class="page-content">
-      <section class="hero">
-        <div class="wrapper">
-          <h1>{{ content.heading or "Welcome to HubSpot Theme Boilerplate" }}</h1>
-          <p>{{ content.subheading or "Start building your HubSpot theme with this starter template." }}</p>
-        </div>
-      </section>
-
-      <section class="module-preview">
-        {% module "modules/custom-module/custom-module.html", label="Sample Custom Module" %}
-      </section>
+    <main>
+      {% module "modules/full-landing-module/full-landing-module.html", label="Landing Page Module" %}
     </main>
 
     {% include "partials/footer.html" %}

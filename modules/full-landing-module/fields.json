@@ -1,0 +1,43 @@
+{
+  "global": {
+    "label": "Full Landing Page Module"
+  },
+  "fields": [
+    {
+      "name": "hero_heading",
+      "label": "Hero Heading",
+      "type": "text",
+      "default": "Connect, engage and develop your teams with AI-powered mentoring."
+    },
+    {
+      "name": "hero_subheading",
+      "label": "Hero Subheading",
+      "type": "textarea",
+      "default": "Transform mentoring and coaching programs into scalable, engaging experiences with intelligent matching, measurable outcomes, and seamless collaboration."
+    },
+    {
+      "name": "hero_cta",
+      "label": "Primary CTA Text",
+      "type": "text",
+      "default": "Book a Demo"
+    },
+    {
+      "name": "hero_cta_url",
+      "label": "Primary CTA URL",
+      "type": "text",
+      "default": "#demo"
+    },
+    {
+      "name": "hero_secondary_text",
+      "label": "Secondary CTA Text",
+      "type": "text",
+      "default": "Watch Video"
+    },
+    {
+      "name": "hero_secondary_url",
+      "label": "Secondary CTA URL",
+      "type": "text",
+      "default": "#video"
+    }
+  ]
+}

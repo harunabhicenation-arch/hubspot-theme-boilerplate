@@ -1,3 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
-  console.log('HubSpot Theme Boilerplate loaded.');
+  const header = document.querySelector('.site-header');
+  if (header) {
+    window.addEventListener('scroll', function () {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    });
+  }
 });
