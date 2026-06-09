@@ -1,0 +1,8 @@
+{
+  "label": "HubSpot Theme Boilerplate",
+  "author": "Generated Boilerplate",
+  "author_email": "",
+  "description": "A starter HubSpot theme with templates, partials, and a sample module.",
+  "version": "1.0.0",
+  "preview_path": "templates/index.html"
+}

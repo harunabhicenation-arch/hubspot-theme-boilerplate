@@ -1,0 +1,72 @@
+:root {
+  --bg: #f9fafb;
+  --surface: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --primary: #ff7a59;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.wrapper {
+  width: min(1100px, 100% - 2rem);
+  margin: 0 auto;
+}
+
+.site-header,
+.site-footer {
+  background: var(--surface);
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0;
+}
+
+.site-header .site-nav a,
+.site-header .brand {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-header .site-nav {
+  display: inline-flex;
+  gap: 1rem;
+  margin-left: 2rem;
+}
+
+.hero {
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+}
+
+.hero p {
+  color: var(--muted);
+  max-width: 38rem;
+  margin: 1rem auto 0;
+}
+
+.module-preview,
+.page-body {
+  background: var(--surface);
+  border: 1px solid #e5e7eb;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 0.75rem;
+}
+
+.site-footer {
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+}

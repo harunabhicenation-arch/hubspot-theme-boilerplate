@@ -1,0 +1,19 @@
+{
+  "global": {
+    "label": "Custom Module Options"
+  },
+  "fields": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "text",
+      "default": "Custom Module Title"
+    },
+    {
+      "name": "body",
+      "label": "Body Content",
+      "type": "rich_text",
+      "default": "Add rich text content here."
+    }
+  ]
+}

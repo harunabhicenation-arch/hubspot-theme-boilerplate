@@ -1,0 +1,13 @@
+{
+  "name": "hubspot-theme-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A HubSpot theme boilerplate with templates, partials, and a sample module.",
+  "scripts": {
+    "start": "echo \"Use the HubSpot CLI to watch or upload the theme.\"",
+    "build": "echo \"Add any build steps here if needed.\""
+  },
+  "devDependencies": {
+    "@hubspot/cli": "^4.0.0"
+  }
+}
